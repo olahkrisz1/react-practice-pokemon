@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       pokemon: [],
-      currentPageUrl: "http://pokeapi.co/api/v2/pokemon",
+      currentPageUrl: "https://pokeapi.co/api/v2/pokemon",
       nextPageUrl: "",
       prevPageUrl: "",
       loading: true,
